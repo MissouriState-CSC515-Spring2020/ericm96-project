@@ -1,4 +1,4 @@
-# CSC 615: Advanced Internet Programming Final Project
+# CSC 615 - Eric McCullough 
 
 ## Instructions
 * `npm run build` to build the project
