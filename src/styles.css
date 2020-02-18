@@ -137,6 +137,15 @@
     background-color: #EEEEEE;
   }
   
+  /*
+  Adding custom css here 
+  */
+  
+  img {
+    width: 200px;
+    height: 400px; 
+    object-fit: cover; 
+  }
   
   /*
   Copyright Google LLC. All Rights Reserved.
