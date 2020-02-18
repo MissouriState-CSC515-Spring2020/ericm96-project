@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ImageRecentComponent } from './image-recent/image-recent.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
+import { ImageCategoryComponent } from './image-category/image-category.component';
+import { ImageDetailsComponent } from './image-details/image-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ImageRecentComponent,
-    TopBarComponent
+    TopBarComponent,
+    ImageCategoryComponent,
+    ImageDetailsComponent
   ],
   imports: [
     BrowserModule,
