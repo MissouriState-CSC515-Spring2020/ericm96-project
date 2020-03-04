@@ -7,6 +7,8 @@ import { ImageRecentComponent } from './image-recent/image-recent.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { ImageCategoryComponent } from './image-category/image-category.component';
 import { ImageDetailsComponent } from './image-details/image-details.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { ImageDetailsComponent } from './image-details/image-details.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
