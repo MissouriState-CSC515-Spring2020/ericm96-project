@@ -108,3 +108,7 @@ dist
 
 # MacOS files
 .DS_Store
+
+# Rollup files
+bundle.js
+bundle.js.map
