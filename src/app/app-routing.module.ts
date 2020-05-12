@@ -8,7 +8,7 @@ import { ImageDetailsComponent } from './image-details/image-details.component';
 const routes: Routes = [
   { path: '', component: ImageRecentComponent },
   { path: 'category', component: ImageCategoryComponent },
-  { path: 'details', component: ImageDetailsComponent }, 
+  { path: 'details', component: ImageDetailsComponent },
 ];
 
 @NgModule({
